@@ -119,7 +119,7 @@ button {
     width: 46%;
 }
 
-.hero__desc-trademark {
+.trademark {
     display: flex;
     align-items: center;
     font-size: 1.6rem;
@@ -128,7 +128,7 @@ button {
     color: #696d77;
 }
 
-.hero__desc-trademark::before {
+.trademark::before {
     display: inline-block;
     margin-right: 12px;
     content: "";
@@ -227,4 +227,66 @@ button {
     bottom: 66px;
     right: -76px;
 }
+
+/* Works */
+.works {
+    margin-top: 160px;
+}
+
+.works__inner {
+    display: flex;
+    align-items: center;
+}
+
+.work-media__img-wrap {
+    display: flex;
+    position: relative;
+    width: 40%;
+}
+
+.work-media__img-bg {
+    z-index: -1;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.work-media__img-decor1 {
+    position: absolute;
+    top: 85px;
+    right: 50px;
+}
+
+.work-media__img-decor2 {
+    position: absolute;
+    bottom: 35px;
+    right: -130px;
+}
+
+.works-content {
+    margin-left: 230px;
+}
+
+.works__heading {
+    margin-bottom: 70px;
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 1.25;
+    color: #212832;
+}
+
+.works__title {
+    margin-bottom: 16px;
+    font-size: 2.2rem;
+    font-weight: 600;
+    line-height: 1.45;
+    color: #212832;
+}
+
+.works__desc {
+    margin-bottom: 30px;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.75;
+    color: #696d76;
 }
