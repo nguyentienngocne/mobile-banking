@@ -110,7 +110,12 @@ button {
     margin-top: 76px;
 }
 
-.hero-left {
+.hero__inner {
+    display: flex;
+    align-items: center;
+}
+
+.hero-content {
     width: 46%;
 }
 
@@ -192,4 +197,34 @@ button {
     font-weight: 600;
     line-height: 1.71;
     color: #696d76;
+}
+
+.hero__img-wrap {
+    position: relative;
+    margin-left: 160px;
+}
+
+.hero__img {
+    width: 296px;
+    height: 562px;
+}
+
+.hero__img-data {
+    position: absolute;
+}
+
+.hero__img-data1 {
+    top: 105px;
+    left: -120px;
+}
+
+.hero__img-data2 {
+    top: 130px;
+    right: -180px;
+}
+
+.hero__img-data3 {
+    bottom: 66px;
+    right: -76px;
+}
 }
