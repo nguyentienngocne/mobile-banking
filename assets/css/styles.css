@@ -635,3 +635,80 @@ button {
 .blog-item__link:hover {
     color: #7264d6;
 }
+
+/* CTA */
+.cta {
+    margin-top: 160px;
+}
+
+.cta__inner {
+    position: relative;
+    padding: 100px 0;
+    background: #7264d6;
+    border-radius: 24px;
+    text-align: center;
+}
+
+.cta__trademark {
+    justify-content: center;
+    color: #fff;
+}
+
+.cta__trademark::before {
+    background: #fff;
+}
+
+.cta__heading {
+    margin-top: 12px;
+    color: #fff;
+}
+
+.cta__desc {
+    width: 435px;
+    margin: 18px auto 38px auto;
+    font-size: 1.6;
+    font-weight: 400;
+    line-height: 1.75;
+    text-align: center;
+    color: #fff;
+}
+
+.cta__get {
+    display: flex;
+    justify-content: center;
+    column-gap: 16px;
+}
+
+.cta__btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 18px 31px;
+    background-color: #fff;
+    border: none;
+    outline: none;
+}
+
+.cta__img-decor {
+    position: absolute;
+}
+
+.cta__img-decor:nth-of-type(1) {
+    top: 50px;
+    left: 120px;
+}
+
+.cta__img-decor:nth-of-type(2) {
+    top: 50px;
+    right: 120px;
+}
+
+.cta__img-decor:nth-of-type(3) {
+    bottom: 50px;
+    left: 180px;
+}
+
+.cta__img-decor:nth-of-type(4) {
+    bottom: 50px;
+    right: 180px;
+}
