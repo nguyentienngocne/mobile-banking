@@ -759,9 +759,10 @@ button {
 }
 
 .footer__subscribe-form__btn {
+    --height: 52px;
+
     margin-left: 20px;
     width: 113px;
-    height: 52px;
 }
 
 .footer__contact-wrap {
